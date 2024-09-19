@@ -50,6 +50,11 @@ const Contact = () => {
                 <div className="contact-detail">
                     <img src={location_icon} alt="" /> <p>Dehradun, Uttarakhand, India</p>
                 </div>
+               <div className="contact-detail">
+                    <a href="http://linkedin.com/in/om-yadav-32b810219" target="_blank" rel="noopener noreferrer">
+                      <p>LinkedIn</p>
+                    </a>
+                </div>
             </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">
